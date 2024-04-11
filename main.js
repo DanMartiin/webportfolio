@@ -60,7 +60,7 @@ const typedElement = document.querySelector('.multiple-text');
 
 if (typedElement) {
     const typed = new Typed('.multiple-text', {
-        strings: ['Full Stack Developer', 'Web Designer'],
+        strings: ['Full Stack Developer', 'Web Designer', 'Mechanical Engineer'],
         typeSpeed: 70,
         backSpeed: 70,
         backDelay: 1000,
