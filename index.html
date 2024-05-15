@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+    <!DOCTYPE html>
 <html>
 <head>
   <meta charset="utf-8">
@@ -22,7 +22,8 @@
             <a href="#home" class="active">Home</a>
             <!-- <a href="#about">About</a> -->
             <a href="#services">Skills</a>
-            <a href="#portfolio">Portfolio</a>
+            <a href="#certificate">Certificates</a>
+            <a href="#portfolio">Projects</a>
             <a href="#contact">Contact</a>
         </nav>
       </header>
@@ -39,7 +40,7 @@
                   <a href="https://www.instagram.com/martin_billedo/"><i class="fa-brands fa-instagram"></i></a>
                   <a href="https://www.linkedin.com/in/dan-martin-billedo/"><i class="fa-brands fa-linkedin"></i></a>
               </div>
-              <a href="https://drive.google.com/file/d/11jPtw0NJXrnf_k2KklUneP77hiKsq8Y9/view?usp=sharing" class="btn">Download CV</a>
+              <a href="https://drive.google.com/file/d/1SCBdaCylio1W0EVEkMbHJO5GdpM9VZgs/view?usp=sharing" class="btn">Download CV</a>
           </div>
           
           <div class="home-img">
@@ -114,8 +115,48 @@
                         <img src="images/logo-postman.png" alt="" class="img-fluid">
                         <h3>Postman</h3>
                     </div>
+<!--                     <div class="services-box">
+                        <img src="images/logo-heroku.png" alt="" class="img-fluid">
+                        <h3>Heroku</h3>
+                    </div>
+                    <div class="services-box">
+                        <img src="images/logo-tailwind.png" alt="" class="img-fluid">
+                        <h3>Tailwind CSS</h3>
+                    </div> -->
               </div>
       </section>
+
+      <!-- CERTIFICATE SECTION DESIGN -->
+      <section class="certificate" id="certificate">
+          <h2 class="heading">My<span>Certificates</span></h2>
+          <div class="certificate-container">
+              <div class="certificate-box">
+                  <img src="images/FrontEnd certificate.JPG" alt="FrontEnd Developer Certificate" class="img-fluid">
+                  <div class="certificate-layer">
+                      <h4>FrontEnd Developer</h4>
+                  </div>
+              </div>
+              <div class="certificate-box">
+                  <img src="images/BackEnd certificate.JPG" alt="BackEnd Developer Certificate" class="img-fluid">
+                  <div class="certificate-layer">
+                      <h4>BackEnd Developer</h4>
+                  </div>
+              </div>
+              <div class="certificate-box">
+                  <img src="images/Fullstack Developer Certificate.JPG" alt="FullStack Developer Certificate" class="img-fluid">
+                  <div class="certificate-layer">
+                      <h4>FullStack Developer</h4>
+                  </div>
+              </div>
+              <div class="certificate-box">
+                  <img src="images/MERN certificate.JPG" alt="MERN Developer Certificate" class="img-fluid">
+                  <div class="certificate-layer">
+                      <h4>MERN Certificate</h4>
+                  </div>
+              </div>
+          </div>
+      </section>
+
 
       <!-- PORTFOLIO SECTION DESIGN -->
       <section class="portfolio" id="portfolio">
@@ -133,74 +174,39 @@
                  </div>
              </div>
 
-                    <!-- <div class="portfolio-box">
+             <div class="portfolio-container">
+                 <div class="portfolio-box">
                      <img src="images/2.jpg" alt="">
-                          <div class="portfolio-layer">
-                                <h4>E-Commerce API</h4>
-                                <i href= "http://zuitt-bootcamp-prod-389-6792-billedo.s3-
-                                website.us-east-1.amazonaws.com/"class="fa-solid fa-up-right-from-square"></i> 
-                          </div>
-                    </div>
+                     <div class="portfolio-layer">
+                         <h4>Starbucks Clone</h4>
+                             <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                     </div>
+                 </div>
+             </div>
 
-                    <div class="portfolio-box">
-                     <img src="images/3.jpg" alt="">
-                          <div class="portfolio-layer">
-                                <h4>Web Design</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <i class="fa-solid fa-up-right-from-square"></i>
-                          </div>
-                    </div>
-
-                    <div class="portfolio-box">
-                     <img src="images/4.jpg" alt="">
-                          <div class="portfolio-layer">
-                                <h4>Web Design</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <i class="fa-solid fa-up-right-from-square"></i>
-                          </div>
-                    </div>
-
-                    <div class="portfolio-box">
-                     <img src="images/5.jpg" alt="">
-                          <div class="portfolio-layer">
-                                <h4>Web Design</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <i class="fa-solid fa-up-right-from-square"></i> 
-                          </div>
-                    </div>
-
-                    <div class="portfolio-box">
-                     <img src="images/6.jpg" alt="">
-                          <div class="portfolio-layer">
-                                <h4>Web Design</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <i class="fa-solid fa-up-right-from-square"></i>
-                          </div>
-                    </div>
-
-               </div> -->
       </section>
+
       <!-- CONTACT SECTION DESIGN -->
-      <section class="contact" id="contact">
-            <h2 class="heading">Contact<span>Me</h2>    
+     <section class="contact" id="contact">
+         <h2 class="heading">Contact<span>Me</span></h2>    
 
-            <form action="send_email.php" method="POST">
-                <div class="input-box">
-                    <input type="text" name="name" placeholder="Full Name" required>
-                    <input type="email" name="email" placeholder="Email" required>
-                </div>
+         <form action="send_email.php" method="POST">
+             <div class="input-box">
+                 <input type="text" name="name" placeholder="Full Name" required>
+                 <input type="email" name="email" placeholder="Email" required>
+             </div>
 
-                <div class="input-box">
-                    <input type="tel" name="contact_number" placeholder="Contact Number" required>
-                    <input type="text" name="subject" placeholder="Email Subject">
-                </div>
+             <div class="input-box">
+                 <input type="tel" name="contact_number" placeholder="Contact Number" required>
+                 <input type="text" name="subject" placeholder="Email Subject">
+             </div>
 
-                <textarea name="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
-                <input type="submit" value="Send Message" class="btn">  
-            </form>
+             <textarea name="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+             <input type="submit" value="Send Message" class="btn">  
+         </form>
+     </section>
 
       <!-- FOOTER SECTION DESIGN -->
-
       <footer class="footer">
           <div class="footer-text">
             <p>&copy; Dan Martin Billedo | All Rights Reserved.</p>
